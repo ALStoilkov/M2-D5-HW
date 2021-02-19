@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <style>
+        body {
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.979);
+            color: cornsilk;
+            font-family: Helvetica,Arial,sans-serif;
+            box-sizing: border-box;
+            margin-left: 30vw;
+            padding-left: 1vw;
+            padding-bottom: 1vh;
+        }
+        .netflixLogo {
+         margin-left: -33vw;
+         margin-top:-1vw;
+         height:12vh; 
+         width:16vw;
+         position:absolute;
+        }
+.striveschoolLogo {
+        height:23vh; 
+        width:13vw;
+        position:relative;
+        border-radius: 6px;
+margin-top: -7vh;
+margin-left: 2vw;
+
+}
+.editProfile {
+    display: inline-block;
+    margin-top: 17vh;
+    font-size: xx-large;
+    margin-bottom: 4vh;
+}
+hr {
+    background-color: #f0fff02e;
+margin-left: 0;
+width: 47vw;
+margin-top: -1rem;
+
+}
+button {
+background-color: black;
+color: white;
+}
+
+input:hover, select:hover {
+    background-color: cornsilk;
+    color: black;
+}
+    </style>
+</head>
+<body>
+ 
+    <img src="C:\Users\FELICUBANO\Desktop\Bin\Intro To Js old\Bin\Netflix-logo.jpg" class="netflixLogo" />
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-12">
+        
+            <h3 class="editProfile">Edit Profile</h3>
+            <hr>
+            <br>
+          </div>
+          <img src="C:\Users\FELICUBANO\Desktop\Bin\Intro To Js old\Bin\Strive-School-Logo.png" class="striveschoolLogo" alt="strive logo" />
+<input disabled type="button" value="Strive Student" />
+    <br>
+    <form label name="editProfile">
+        <h6>Language</h6>
+<label for="language"></label>
+<br>
+<select name="language" id="language">
+  <option value="English">English</option>
+  <option value="Spanish">Spanish</option>
+  <option value="French">French</option>
+  <option value="Portuguese">Portuguese</option>
+</select>
+<hr>
+<br>
+<h6>Maturity Settings</h6>
+<input type="button" value="All Maturity Settings" /><br>
+<p>Show titles</p>
+</form>
+
+<footer>
+
+    </footer>
+</body>
+</html>
