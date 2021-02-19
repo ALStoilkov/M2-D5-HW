@@ -27,3 +27,11 @@
     width: 160px;
     float: left;
 }
+
+.jumbotron{
+    width: 100%;
+    height: 400px;
+    background: url(https://i.ytimg.com/vi/6SJTCyxf_qE/maxresdefault.jpg);
+    background-size: cover;
+}
+
